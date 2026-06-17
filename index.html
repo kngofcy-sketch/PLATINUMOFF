@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>APS Platinum Parking Service | Bank-Level Parking Logistics in Florida</title>
+    <meta name="description" content="APS Platinum Parking Service delivers elite, technology-driven parking management solutions across Florida. Total digital control, zero-app ecosystem, and elite operations." />
+    <meta property="og:title" content="APS Platinum Parking Service | Bank-Level Parking Logistics" />
+    <meta property="og:description" content="Elite parking management solutions across Florida. Total digital control, zero-app ecosystem." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    
+    <style>
+      /* --- HACK PARA REEMPLAZAR EL LOGO VIEJO POR EL PREMIUM --- */
+      
+      /* 1. Ocultamos el escudo y texto viejo del encabezado */
+      header div a svg, 
+      header a div svg,
+      header .logo-old,
+      header div[class*="logo"] {
+        display: none !important;
+      }
+      
+      /* 2. Inyectamos tu logo metálico nuevo desde la raíz de tu repositorio */
+      header div a::before,
+      header a::before {
+        content: "";
+        display: inline-block;
+        width: 140px; 
+        height: 45px;
+        background-image: url('/logo-new..png'); /* Ruta directa desde donde le diste commit */
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: left center;
+        margin-right: 10px;
+        vertical-align: middle;
+      }
+
+      /* --- FOOTER INFERIOR OBLIGATORIO --- */
+      .maintenance-footer {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100vw;
+        background-color: #080808;
+        text-align: center;
+        padding: 15px;
+        font-family: 'Inter', sans-serif;
+        font-size: 13px;
+        color: #888888;
+        border-top: 1px solid #1c1c1c;
+        line-height: 1.5;
+        z-index: 100000;
+      }
+    </style>
+  </head>
+  <body>
+
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    
+    <footer class="maintenance-footer">
+      <p>© 2026 All rights reserved to Platinum Parking Service LLC.</p>
+      <p>Managed by Kingdom Connect VIP / DHSKNG Studio</p>
+    </footer>
+
+  </body>
+</html>
