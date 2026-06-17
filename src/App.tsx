@@ -469,7 +469,7 @@ function BrandPromise() {
             The <span className="text-primary-300">Platinum Promise</span>
           </h2>
           <p className="section-subtitle">
-            Excellence is not an act, but a habit. This is our commitment to every venue, every guest, every day.
+            Excellent is not an act, but a habit. This is our commitment to every venue, every guest, every day.
           </p>
         </div>
 
@@ -593,8 +593,8 @@ function ContactCTA({
 // Gallery Section
 function Gallery() {
   const galleryItems = [
-    { img: tucandelaImg,    title: 'Tucandela Wynwood',        category: 'Nightlife' },
-    { img: cantaCorazonImg, title: 'Canta Corazon',            category: 'Dining & Events' },
+    { img: tucandelaImg,    title: 'Tucandela Wynwood',       category: 'Nightlife' },
+    { img: cantaCorazonImg, title: 'Canta Corazon',           category: 'Dining & Events' },
     { img: luxuryFleetImg,  title: 'Luxury Fleet Management', category: 'Valet' },
     { img: electric23Img,   title: 'Electric 23',              category: 'Entertainment' },
     { img: hiyaImg,         title: 'HIYAKAWA VALET',           category: 'Hospitality' },
@@ -729,10 +729,10 @@ function Footer() {
           </div>
         </div>
 
-        {/* Bottom Bar con tus créditos fijos comerciales */}
+        {/* Bottom Bar con tus créditos fijos comerciales - ACTUALIZADO MANUAL */}
         <div className="border-t border-dark-800 mt-12 pt-8 flex flex-col md:flex-row items-center justify-between">
           <div className="text-dark-500 text-sm space-y-1">
-            <p>&copy; 2026 APS Platinum Parking Service LLC. All rights reserved.</p>
+            <p>&copy; 2026 Platinum Parking Service LLC. All rights reserved.</p>
             <p className="text-xs text-dark-600">Managed by Kingdom Connect VIP / DHSKNG Studio</p>
           </div>
           <div className="flex space-x-6 mt-4 md:mt-0">
